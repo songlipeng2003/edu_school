@@ -67,12 +67,10 @@ return array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
 				),
-				// uncomment the following to show log messages on web pages
-				/*
-				array(
-					'class'=>'CWebLogRoute',
-				),
-				*/
+	            array(
+	                'class'=>'vendor.malyshev.yii-debug-toolbar.YiiDebugToolbarRoute',
+	                'ipFilters'=>array('127.0.0.1'),
+	            ),
 			),
 		),
 		'booster' => array(

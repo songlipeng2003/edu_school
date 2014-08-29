@@ -26,6 +26,7 @@ return array(
                 'vendor.clevertech.yii-booster.src.gii',
             ),
 		),
+		'admin'
 	),
 
 	// application components

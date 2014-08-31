@@ -44,6 +44,16 @@
         ?>
     </div>
 
+    <?php if(isset($this->breadcrumbs)):?>
+    <div class="container">
+        <div class="row">
+            <?php $this->widget('booster.widgets.TbBreadcrumbs', array(
+                'links'=>$this->breadcrumbs,
+            )); ?><!-- breadcrumbs -->
+        </div>
+    </div>
+    <?php endif?>
+
     <?php echo $content; ?>
 
     <footer class="footer">

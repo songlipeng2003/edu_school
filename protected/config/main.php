@@ -23,7 +23,7 @@ return array(
 			'password'=>'edu',
 			'ipFilters'=>array('127.0.0.1','::1'),
 			'generatorPaths'=>array(
-                'vendor.clevertech.yii-booster.src.gii',
+                'application.gii',
             ),
 		),
 		'admin'

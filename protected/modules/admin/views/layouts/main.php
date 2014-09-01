@@ -29,7 +29,8 @@
                     'items' => array(
                         array('label' => '首页', 'url' => array('default/'), 'active' => Yii::app()->controller->id=='default'),
                         array('label' => '新闻管理', 'url' => array('news/'), 'active' => Yii::app()->controller->id=='news'),
-                        array('label' => '分校管理', 'url' => array('school/'), 'active' => Yii::app()->controller->id=='news'),
+                        array('label' => '分校管理', 'url' => array('school/'), 'active' => Yii::app()->controller->id=='school'),
+                        array('label' => '课程管理', 'url' => array('course/'), 'active' => Yii::app()->controller->id=='course'),
                     )
                 )
             )

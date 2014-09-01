@@ -27,7 +27,7 @@
                     'class' => 'booster.widgets.TbMenu',
                     'type' => 'navbar',
                     'items' => array(
-                        array('label' => 'Home', 'url' => array('default/'), 'active' => Yii::app()->controller->id=='default'),
+                        array('label' => '首页', 'url' => array('default/'), 'active' => Yii::app()->controller->id=='default'),
                     )
                 )
             )
@@ -48,6 +48,7 @@
     <div class="container">
         <div class="row">
             <?php $this->widget('booster.widgets.TbBreadcrumbs', array(
+                'homeLink'=>CHtml::link('首页', array('default/')),
                 'links'=>$this->breadcrumbs,
             )); ?><!-- breadcrumbs -->
         </div>

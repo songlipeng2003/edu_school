@@ -9,9 +9,7 @@
 
 	<title><?php echo CHtml::encode(Yii::app()->settings->get('system', 'siteName')); ?></title>
 </head>
-
 <body>
-
 	<div class="page940">
         <div class="page940" style="margin-top:8px;margin-bottom:8px;">
             <div class="banner03">
@@ -27,13 +25,15 @@
             <div class="link14px000B dh03"> 
                 <ul> 
                 	<li id="home">
-                		<?php echo CHtml::link('学校首页', array('/')); ?>
+                		<?php echo CHtml::link('学校首页', array('/site/index')); ?>
                 	</li>
                     <li id="sintro"><a href="/school/njzsjy/SchoolIntro.html">学校介绍</a></li>
                     <li id="allcou"><a href="/school/njzsjy/course.html">课程设置</a></li> 
                     <li id="snew"><a href="/school/njzsjy/SchoolNews-1.html">学校新闻</a></li> 
                     <li id="sen"><a href="/school/njzsjy/SchoolEnvir.html">学校环境</a></li> 
-                    <li id="sjx"><a href="/school/njzsjy/SchoolSite.html">学校地址</a></li> 
+                    <li id="sjx">
+                        <?php echo CHtml::link('学校地址', array('school/')) ?>
+                    </li> 
                     <li id="sqa"><a href="/school/njzsjy/SchoolQA-1.html">在线问答</a></li> 
                 </ul> 
             </div> 

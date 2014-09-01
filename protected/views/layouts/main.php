@@ -1,59 +1,45 @@
 <?php /* @var $this Controller */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+	<meta name="language" content="zh-CN" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/css.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/school.css" media="screen" />
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<title><?php echo CHtml::encode(Yii::app()->settings->get('system', 'siteName')); ?></title>
 </head>
 
 <body>
 
-<div class="container" id="page">
+	<div class="page940">
+        <div class="page940" style="margin-top:8px;margin-bottom:8px;">
+            <div class="banner03">
+            	<a href="/" title="<?php echo Yii::app()->settings->get('system', 'siteName'); ?>">
+            		<img  src="/images/logo.jpg" alt="<?php echo Yii::app()->settings->get('system', 'siteName'); ?>" width="940"  />
+            	</a>
+            </div>
+        </div>
+         <div class="dh01" style="margin:0px auto;margin-bottom:10px;"> 
+            <div class="dh02 link18pxA01B" style="text-align:center;"> 
+                <a href="/"><?php echo Yii::app()->settings->get('system', 'siteName'); ?></a>
+            </div> 
+            <div class="link14px000B dh03"> 
+                <ul> 
+                	<li id="home">
+                		<?php echo CHtml::link('学校首页', array('/')); ?>
+                	</li>
+                    <li id="sintro"><a href="/school/njzsjy/SchoolIntro.html">学校介绍</a></li>
+                    <li id="allcou"><a href="/school/njzsjy/course.html">课程设置</a></li> 
+                    <li id="snew"><a href="/school/njzsjy/SchoolNews-1.html">学校新闻</a></li> 
+                    <li id="sen"><a href="/school/njzsjy/SchoolEnvir.html">学校环境</a></li> 
+                    <li id="sjx"><a href="/school/njzsjy/SchoolSite.html">学校地址</a></li> 
+                    <li id="sqa"><a href="/school/njzsjy/SchoolQA-1.html">在线问答</a></li> 
+                </ul> 
+            </div> 
+ 		</div>
 
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
-
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
-	<?php echo $content; ?>
-
-	<div class="clear"></div>
-
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
-
-</div><!-- page -->
-
+ 		<?php echo $content; ?>
+	</div>
 </body>
 </html>

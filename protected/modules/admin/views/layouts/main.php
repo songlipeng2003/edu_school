@@ -7,7 +7,7 @@
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+    <title><?php echo CHtml::encode(Yii::app()->settings->get('system', 'siteName')); ?></title>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -19,7 +19,7 @@
     $this->widget(
         'booster.widgets.TbNavbar',
         array(
-            'brand' => CHtml::encode(Yii::app()->name),
+            'brand' => CHtml::encode(Yii::app()->settings->get('system', 'siteName')),
             'fixed' => false,
             'fluid' => false,
             'items' => array(
@@ -31,6 +31,7 @@
                         array('label' => '新闻管理', 'url' => array('news/'), 'active' => Yii::app()->controller->id=='news'),
                         array('label' => '分校管理', 'url' => array('school/'), 'active' => Yii::app()->controller->id=='school'),
                         array('label' => '课程管理', 'url' => array('course/'), 'active' => Yii::app()->controller->id=='course'),
+                        array('label' => '系统设置', 'url' => array('settings/'), 'active' => Yii::app()->controller->id=='settings'),
                     )
                 )
             )
@@ -63,7 +64,7 @@
     <footer class="footer">
         <div class="container">
             <p class="powered">
-                Copyright &copy; 2014 by <?php echo CHtml::encode(Yii::app()->name); ?> </p>
+                Copyright &copy; 2014 by <?php echo CHtml::encode(Yii::app()->settings->get('system', 'siteName')); ?> </p>
         </div>
     </footer>
 </body>

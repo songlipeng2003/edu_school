@@ -51,6 +51,8 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+			'enableProfiling'=>true,
+        	'enableParamLogging'=>true,
 		),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
@@ -72,6 +74,19 @@ return array(
 		'booster' => array(
 		    'class' => 'vendor.clevertech.yii-booster.src.components.Booster',
 		),
+		'cache'=>array(
+            'class'=>'system.caching.CFileCache',
+        ),
+		'settings'=>array(
+	        'class'                 => 'application.extensions.settings.CmsSettings',
+	        'cacheComponentId'  => 'cache',
+	        'cacheId'           => 'global_website_settings',
+	        'cacheTime'         => 84000,
+	        'tableName'     => 'settings',
+	        'dbComponentId'     => 'db',
+	        'createTable'       => true,
+	        'dbEngine'      => 'InnoDB',
+        ),
 	),
 
 	// application-level parameters that can be accessed

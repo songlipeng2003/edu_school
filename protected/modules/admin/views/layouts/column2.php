@@ -3,11 +3,15 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-3 col-xs-12">
-            <ul class="nav">
-                <?php foreach ($this->menu as $menu) { ?>
-                    <li><?php echo CHtml::link($menu['label'], $menu['url']) ?></li>
-                <?php } ?>
-            </ul>
+            <?php
+            $this->widget(
+                'booster.widgets.TbMenu',
+                array(
+                    'type' => 'list',
+                    'items' => $this->menu,
+                )
+            );
+            ?>
         </div>
         <div class="col-sm-9 col-xs-12">
             <?php echo $content; ?>

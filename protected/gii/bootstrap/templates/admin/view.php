@@ -15,14 +15,14 @@ echo "\$this->breadcrumbs=array(
 ?>
 
 $this->menu=array(
-    array('label'=>'Manage <?php echo $this->modelClass; ?>','url'=>array('index')),
-    array('label'=>'Create <?php echo $this->modelClass; ?>','url'=>array('create')),
-    array('label'=>'Update <?php echo $this->modelClass; ?>','url'=>array('update','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>)),
-    array('label'=>'Delete <?php echo $this->modelClass; ?>','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>),'confirm'=>'Are you sure you want to delete this item?')),
+    array('label'=>'管理','url'=>array('index')),
+    array('label'=>'创建','url'=>array('create')),
+    array('label'=>'更新','url'=>array('update','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>)),
+    array('label'=>'删除','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>),'confirm'=>'你确定要删除吗?')),
 );
 ?>
 
-<h1>View <?php echo $this->modelClass . " #<?php echo \$model->{$this->tableSchema->primaryKey}; ?>"; ?></h1>
+<h1>查看</h1>
 
 <?php echo "<?php"; ?> $this->widget('booster.widgets.TbDetailView',array(
 'data'=>$model,

@@ -1,6 +1,6 @@
 <?php
 
-class NewsController extends AdminController
+class SchoolController extends AdminController
 {
     /**
     * @return array action filters
@@ -44,14 +44,14 @@ class NewsController extends AdminController
     */
     public function actionCreate()
     {
-        $model=new News;
+        $model=new School;
 
         // Uncomment the following line if AJAX validation is needed
         // $this->performAjaxValidation($model);
 
-        if(isset($_POST['News']))
+        if(isset($_POST['School']))
         {
-            $model->attributes=$_POST['News'];
+            $model->attributes=$_POST['School'];
             if($model->save())
                 $this->redirect(array('view','id'=>$model->id));
         }
@@ -73,9 +73,9 @@ class NewsController extends AdminController
         // Uncomment the following line if AJAX validation is needed
         // $this->performAjaxValidation($model);
 
-        if(isset($_POST['News']))
+        if(isset($_POST['School']))
         {
-            $model->attributes=$_POST['News'];
+            $model->attributes=$_POST['School'];
             if($model->save())
                 $this->redirect(array('view','id'=>$model->id));
         }
@@ -110,10 +110,10 @@ class NewsController extends AdminController
     */
     public function actionIndex()
     {
-        $model=new News('search');
+        $model=new School('search');
         $model->unsetAttributes();  // clear any default values
-        if(isset($_GET['News']))
-            $model->attributes=$_GET['News'];
+        if(isset($_GET['School']))
+            $model->attributes=$_GET['School'];
 
         $this->render('index',array(
             'model'=>$model,
@@ -127,7 +127,7 @@ class NewsController extends AdminController
     */
     public function loadModel($id)
     {
-        $model=News::model()->findByPk($id);
+        $model=School::model()->findByPk($id);
         if($model===null)
             throw new CHttpException(404,'The requested page does not exist.');
         return $model;
@@ -139,7 +139,7 @@ class NewsController extends AdminController
     */
     protected function performAjaxValidation($model)
     {
-        if(isset($_POST['ajax']) && $_POST['ajax']==='news-form')
+        if(isset($_POST['ajax']) && $_POST['ajax']==='school-form')
         {
             echo CActiveForm::validate($model);
             Yii::app()->end();

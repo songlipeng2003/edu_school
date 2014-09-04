@@ -120,6 +120,16 @@ class News extends CActiveRecord
 			$this->post_time = $this->created_at;
 		}
 
+		if($this->content){
+			$description = preg_replace('/<\/?.*>/U', '', $this->content);
+
+			$length = strlen($description);
+
+			$description = $length>256 ? substr($description, 0, 256) : $description;
+
+			$this->description = $description;
+		}
+
 		return true;
 	}
 }

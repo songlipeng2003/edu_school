@@ -824,3 +824,202 @@ div.scott span.disabled {
     float: right;
     margin-right: 10px;
 }
+
+.QA1 {
+    float: left;
+    background-color: #F0F0F0;
+    border-bottom: solid 1px #E4E4E4;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 436px;
+}
+.QA2 {
+    float: left;
+    background-color: #F0F0F0;
+    border-bottom: solid 1px #E4E4E4;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 16px;
+    width: 135px;
+    font-size: 14px;
+    text-align: right;
+}
+.QA3 {
+    float: left;
+    width: 568px;
+    padding: 10px;
+    color: #25549A;
+    line-height: 21px;
+    padding-bottom: 0px;
+}
+.QA4 {
+    float: left;
+    width: 568px;
+    padding: 10px;
+    color: #434343;
+    padding-bottom: 30px;
+    line-height: 21px;
+}
+.QA5 {
+    float: left;
+    width: 568px;
+    text-align: right
+}
+.QA6 {
+    float: left;
+    width: 568px;
+    color: #434343;
+    padding-top: 10px;
+    line-height: 21px;
+}
+.link002 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:link, .link002 a:visited {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:hover {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: underline;
+}
+.link14A0, .link14A0 a:link, .link14A0 a:visited {
+    font-size: 14px;
+    font-weight: bold;
+    color: #A01403;
+    text-decoration: none;
+}
+.link14A0 a:hover {
+    font-size: 14px;
+    font-weight: bold;
+    color: #A01403;
+    text-decoration: underline;
+}
+.s6 {
+    padding-left: 20px;
+    overflow: hidden;
+    float: left;
+    width: 607px;
+    border: solid 1px #D1D1D1;
+    padding: 10px;
+    overflow: hidden
+}
+.s6 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.s6 li {
+    list-style: none;
+}
+#lianxitab td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+#lianxitab {
+    margin-left: 10px;
+}
+.sright1 {
+    float: left;
+    width: 278px;
+    padding: 10px;
+    background-color: #F8F8F8;
+    overflow: hidden
+}
+.sright1 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sright1 li {
+    padding: 0px;
+    margin: 0px;
+    line-height: 23px;
+    border-bottom: dashed 1px #CDCDCD;
+    list-style: none;
+}
+.sright05 {
+    float: left;
+    width: 236px;
+    background-image: url(/school/images/bg11.jpg);
+    background-repeat: no-repeat;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 42px;
+}
+.sright05 div {
+    float: left;
+    width: 115px;
+}
+.link002 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:link, .link002 a:visited {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:hover {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: underline;
+}
+.b622 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg003.jpg);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.more622 {
+    float: right;
+    margin-right: 10px;
+}
+.b841 {
+    font-weight: normal;
+}
+.more841 {
+    float: right;
+    margin-right: 10px;
+}
+.b624 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg10.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.more624 {
+    float: right;
+    margin-right: 10px;
+}
+.b628 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg10.jpg);
+    background-repeat: repeat-x;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.more628 {
+    float: right;
+    margin-right: 10px;
+}

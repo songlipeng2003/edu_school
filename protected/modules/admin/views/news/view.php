@@ -19,7 +19,12 @@ $this->menu=array(
 'attributes'=>array(
 		'id',
 		'title',
-		'content',
+        'description',
+		array(
+            'label'=>'内容',
+            'type'=>'raw',
+            'name'=>'content'
+        ),
 		'created_at',
 		'updated_at',
 		'post_time',

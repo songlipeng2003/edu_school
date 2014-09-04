@@ -9,7 +9,7 @@
 
 	<?php echo $form->textFieldGroup($model,'title',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>255)))); ?>
 
-	<?php echo $form->textAreaGroup($model,'content', array('widgetOptions'=>array('htmlOptions'=>array('rows'=>6, 'cols'=>50, 'class'=>'span8')))); ?>
+	<?php echo $form->ckEditorGroup($model,'content', array('widgetOptions'=>array('htmlOptions'=>array('rows'=>6, 'cols'=>50, 'class'=>'span8')))); ?>
 
 	<?php echo $form->textFieldGroup($model,'post_time',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5')))); ?>
 

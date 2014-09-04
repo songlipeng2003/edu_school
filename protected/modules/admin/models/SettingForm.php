@@ -4,6 +4,7 @@ class SettingForm extends CFormModel
 {
     public $siteName;
     public $description;
+    public $intro;
     public $statisticsCode;
     public $footer;
 
@@ -15,6 +16,7 @@ class SettingForm extends CFormModel
         return array(
             array('siteName', 'required'),
             array('description', 'length', 'max'=>255),
+            array('intro', 'length', 'max'=>60000),
             array('statisticsCode', 'length', 'max'=>1000),
             array('footer', 'length', 'max'=>2000),
         );
@@ -30,6 +32,7 @@ class SettingForm extends CFormModel
         return array(
             'siteName'=>'网站名称',
             'description'=>'网站描述',
+            'intro'=>'网站介绍',
             'statisticsCode'=>'统计代码',
             'footer'=>'底部代码',
         );

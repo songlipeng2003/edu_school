@@ -11,6 +11,8 @@
 
     <?php echo $form->textAreaGroup($model,'description',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>255)))); ?>
 
+    <?php echo $form->ckEditorGroup($model,'intro',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>255)))); ?>
+
     <?php echo $form->textAreaGroup($model,'statisticsCode',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>1000)))); ?>
 
     <?php echo $form->textAreaGroup($model,'footer',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>1000)))); ?>

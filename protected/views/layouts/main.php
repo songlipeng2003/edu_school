@@ -27,7 +27,9 @@
                 	<li id="home">
                 		<?php echo CHtml::link('学校首页', array('/site/index')); ?>
                 	</li>
-                    <li id="sintro"><a href="/school/njzsjy/SchoolIntro.html">学校介绍</a></li>
+                    <li id="sintro">
+                        <?php echo CHtml::link('学校介绍', array('/aboutUs')); ?>
+                    </li>
                     <li id="allcou"><a href="/school/njzsjy/course.html">课程设置</a></li> 
                     <li id="snew">
                         <?php echo CHtml::link('学校新闻', array('news/')) ?>

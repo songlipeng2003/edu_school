@@ -30,7 +30,9 @@
                     <li id="sintro">
                         <?php echo CHtml::link('学校介绍', array('/doc/aboutUs')); ?>
                     </li>
-                    <li id="allcou"><a href="/school/njzsjy/course.html">课程设置</a></li> 
+                    <li id="allcou">
+                        <?php echo CHtml::link('课程设置', array('course/')) ?>
+                    </li> 
                     <li id="snew">
                         <?php echo CHtml::link('学校新闻', array('news/')) ?>
                     </li> 

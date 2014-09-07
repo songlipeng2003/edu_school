@@ -1023,3 +1023,1160 @@ div.scott span.disabled {
     float: right;
     margin-right: 10px;
 }
+
+
+#lianxitab td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+#lianxitab {
+    margin-left: 10px;
+}
+.sright1 {
+    float: left;
+    width: 278px;
+    padding: 10px;
+    background-color: #F8F8F8;
+    overflow: hidden
+}
+.sright1 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sright1 li {
+    padding: 0px;
+    margin: 0px;
+    line-height: 23px;
+    border-bottom: dashed 1px #CDCDCD;
+    list-style: none;
+}
+.sright05 {
+    float: left;
+    width: 236px;
+    background-image: url(/school/images/bg11.jpg);
+    background-repeat: no-repeat;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 42px;
+}
+.sright05 div {
+    float: left;
+    width: 115px;
+}
+.link002 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:link, .link002 a:visited {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:hover {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: underline;
+}
+.b668 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg003.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.more668 {
+    float: right;
+    margin-right: 10px;
+}
+.b844 {
+    font-weight: normal;
+}
+.more844 {
+    float: right;
+    margin-right: 10px;
+}
+.b670 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg10.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.more670 {
+    float: right;
+    margin-right: 10px;
+}
+.b674 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg10.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.more674 {
+    float: right;
+    margin-right: 10px;
+}
+
+/*整体样式*/
+
+.title1 {
+    float: left;
+    width: 558px;
+    height: 26px;
+    line-height: 26px;
+    text-align: left;
+}
+.title2 {
+    float: left;
+    width: 342px;
+    height: 26px;
+    line-height: 26px;
+    text-align: right;
+}
+a {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+a:link, .link12px a:visited {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 12px;
+    color: #FF6600;
+    text-decoration: underline;
+}
+.dot {
+    background-image: url(http://www.edulife.com.cn/school/images1/dot.gif);
+    background-repeat: repeat-x;
+    width: 98%;
+    height: 1px;
+}
+/*图片切换样式*/
+
+.focusPic {
+    margin: 0 auto;
+    width: 100%;
+}
+.focusPic .pic {
+    margin: 0 auto
+}
+.num {
+    float: left;
+    width: 90px;
+    padding-top: 4px;
+}
+.titleleft {
+    line-height: 27px;
+    padding-left: 25px;
+    color: #353336;
+    font-weight: bold;
+    font-size: 14px
+}
+.chgdiv {
+    float: left;
+    width: 16px;
+    text-align: center
+}
+.on {
+    background-image: url(http://www.edulife.com.cn/school/images1/on.gif);
+    color: White
+}
+.off {
+    background-image: url(http://www.edulife.com.cn/school/images1/off.gif);
+    color: White
+}
+.chgdiv {
+    float: left
+}
+.chgdiv a {
+    color: #fff;
+}
+.chgdiv a:visited {
+    color: #fff;
+}
+.chgdiv a:hover {
+    color: #ff0;
+}
+.chgdivO {
+    float: left;
+    width: 4px;
+}
+.chgdivOx {
+    float: left;
+    padding-left: 5px;
+}
+/*链接样式*/
+
+.link12px {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+.link12px a:link, .link12px a:visited {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+.link12px a:hover {
+    font-size: 12px;
+    color: #FF6600;
+    text-decoration: underline;
+}
+.link12px659 {
+    font-size: 12px;
+    color: #555555;
+    text-decoration: none;
+}
+.link12px659 a:link, .link12px659 a:visited {
+    font-size: 12px;
+    color: #555555;
+    text-decoration: none;
+}
+.link12px659 a:hover {
+    font-size: 12px;
+    color: #6590C5;
+    text-decoration: underline;
+}
+.link14pxfdf {
+    font-size: 14px;
+    color: #fdfeff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link14pxfdf a:link, .link14pxfdf a:visited {
+    font-size: 14px;
+    color: #fdfeff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link14pxfdf a:hover {
+    font-size: 14px;
+    color: #fdfeff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.top01 {
+    MARGIn-top: 8px;
+    width: 900px;
+    height: 90px;
+    TEXT-ALIGN: left
+}
+.top03 {
+    FLOAT: left;
+    MARGIN-LEFT: 40px;
+}
+.top04 {
+    PADDING-LEFT: 17px;
+    COLOR: #1b3355;
+    clear: left
+}
+.right01 {
+    FLOAT: left;
+    MARGIN-LEFT: 12px;
+    WIDTH: 248px;
+    HEIGHT: auto
+}
+.right02 {
+    CLEAR: left;
+    BORDER: #bcd8ee 1px solid;
+    WIDTH: 246px;
+    HEIGHT: auto
+}
+.right04 {
+    padding-left: 10px;
+    float: left;
+    margin-top: 7px;
+}
+.right05 {
+    MARGIN-LEFT: 10px;
+    LINE-HEIGHT: 31px;
+    ZOOM: 1;
+    float: left
+}
+.right06 {
+    line-height: 31px;
+    float: right;
+    font-weight: normal;
+    margin-right: 12px;
+}
+.right07 {
+    MARGIN-TOP: 1px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    WIDTH: 244px;
+    COLOR: #1d3456;
+    HEIGHT: 31px;
+    BACKGROUND-COLOR: #e3e7f2;
+    TEXT-ALIGN: left;
+    margin-top: 10px;
+}
+.courseList2 {
+    width: 616px;
+    background-image: url(http://www.edulife.com.cn/school/images1/title_left02.gif);
+    height: 31px;
+    line-height: 31px;
+    font-weight: bold;
+    background-repeat: repeat-x;
+    margin-top: 9px;
+    text-align: left;
+    color: #555555;
+}
+.courseList3 {
+    width: 220px;
+    display: block;
+    float: left;
+}
+.courseList4 {
+    width: 175px;
+    display: block;
+    float: left;
+}
+.courseList5 {
+    width: 80px;
+    display: block;
+    float: left;
+    text-align: center
+}
+.courseList13 {
+    width: 60px;
+    display: block;
+    float: left;
+    text-align: center
+}
+.courseList6 {
+    width: 616px;
+    height: auto;
+    text-align: left
+}
+.courseList7 {
+    line-height: 27px;
+    border-bottom: dotted 1px;
+    height: 27px;
+}
+.courseList8 {
+    line-height: 27px;
+    height: 27px;
+}
+.courseList9 {
+    width: 60px;
+    display: block;
+    float: left;
+}
+.courseList12 {
+    width: 140px;
+    height: 21px;
+    background-color: #F0F0F0;
+    line-height: 21px;
+}
+.courseList14 {
+    width: 210px;
+    display: block;
+    float: left;
+}
+.title {
+    OVERFLOW: hidden;
+    WIDTH: 900px;
+    HEIGHT: auto;
+    TEXT-ALIGN: left
+}
+.title1 {
+    float: left;
+    width: 558px;
+    height: 26px;
+    line-height: 26px;
+    text-align: left;
+}
+.title2 {
+    float: left;
+    width: 342px;
+    height: 26px;
+    line-height: 26px;
+    text-align: right;
+}
+.title3 {
+    FLOAT: left;
+    WIDTH: 640px;
+    HEIGHT: auto
+}
+.title4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #2C519F
+}
+.title5 {
+    line-height: 200%;
+    text-align: left;
+    margin-top: 8px;
+}
+.infor1 {
+    line-height: 20px;
+    height: 20px;
+}
+.infor3 {
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+    line-height: 170%;
+    clear: both;
+    text-align: left;
+    padding: 5px;
+}
+.infor4 {
+    float: right;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.infor5 {
+    width: 98%;
+    height: 10px;
+    border: 0px;
+    border-top: dotted 1px #ccc;
+    overflow: hidden;
+}
+.title_left01 {
+    FLOAT: left;
+    MARGIN-BOTTOM: 9px;
+    WIDTH: 276px;
+    HEIGHT: auto
+}
+.title_left04 {
+    PADDING-RIGHT: 5px;
+    MARGIN-TOP: 5px;
+    PADDING-LEFT: 5px;
+    LINE-HEIGHT: 200%
+}
+.title_left05 {
+    FLOAT: left;
+    BACKGROUND-IMAGE: url(http://www.edulife.com.cn/school/images1/title_left01.gif);
+    MARGIN-BOTTOM: 9px;
+    MARGIN-LEFT: 9px;
+    WIDTH: 355px;
+    BACKGROUND-REPEAT: no-repeat;
+    HEIGHT: 180px
+}
+.title_left06 {
+    MARGIN-TOP: 10px;
+    WIDTH: 320px;
+    HEIGHT: auto;
+}
+.title_left07 {
+    margin-top: 15px;
+    line-height: 200%;
+    font-size: 14px;
+    color: #27539E;
+    text-align: left;
+    padding-left: 18px;
+    HEIGHT: auto;
+}
+.title_left10 {
+    PADDING-LEFT: 33px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    WIDTH: 635px;
+    COLOR: #0439a9;
+    LINE-HEIGHT: 39px;
+    HEIGHT: auto
+}
+.title_left11 {
+    MARGIN-LEFT: 10px;
+    LINE-HEIGHT: 31px;
+    ZOOM: 1;
+    float: left
+}
+.title_left12 {
+    MARGIN-LEFT: 10px;
+    LINE-HEIGHT: 31px;
+    ZOOM: 1
+}
+.title_left13 {
+    WIDTH: 635px;
+    HEIGHT: auto;
+    line-height: 200%;
+}
+.title_right02 {
+    width: 180px;
+    display: block;
+    float: left;
+}
+.title_right03 {
+    width: 50px;
+    display: block;
+    float: right;
+}
+.question01 {
+    width: 608px;
+    height: 29px;
+    background-image: url(http://www.edulife.com.cn/school/images1/title_left03.gif);
+    background-repeat: repeat-x;
+    margin-top: 18px;
+    FONT-SIZE: 14px;
+    LINE-HEIGHT: 29px;
+    text-align: left;
+}
+.question03 {
+    float: right;
+    padding-right: 18px;
+}
+.question04 {
+    text-align: left;
+    padding-left: 40px;
+    line-height: 160%;
+    margin-top: 10px;
+}
+/*红色方案*/
+
+.top02 {
+    BACKGROUND-IMAGE: url(http://www.edulife.com.cn/school/images1/title_02.jpg);
+    WIDTH: 900px;
+    LINE-HEIGHT: 37px;
+    HEIGHT: 71px
+}
+.title_left14 {
+    width: 4px;
+    height: 13px;
+    margin-left: 10px;
+    margin-top: 6px;
+    background-image: url(http://www.edulife.com.cn/school/images1/ico03.gif);
+    background-repeat: no-repeat;
+}
+.title_left02 {
+    BORDER: #F2D8D9 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    WIDTH: 274px;
+    COLOR: #B50003;
+    HEIGHT: 28px;
+    BACKGROUND-COLOR: #FFEDE9;
+    border-bottom-style: none;
+}
+.title_left03 {
+    BORDER: #F2D8D9 1px solid;
+    WIDTH: 274px;
+    HEIGHT: 149px
+}
+.title_left15 {
+    line-height: 30px;
+    height: 30px;
+    text-align: left;
+    margin-left: 24px;
+    font-weight: bold;
+    color: #B50003;
+    font-size: 14px;
+}
+.title_left09 {
+    MARGIN-TOP: 1px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    WIDTH: 635px;
+    COLOR: #B50003;
+    HEIGHT: 31px;
+    BACKGROUND-COLOR: #FFEDE9;
+    TEXT-ALIGN: left
+}
+.title4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #D20004;
+}
+.title_left08 {
+    CLEAR: left;
+    BORDER: #F2D8D9 1px solid;
+    WIDTH: 638px;
+    HEIGHT: auto
+}
+.courseList1 {
+    width: 635px;
+    height: 31px;
+    background-color: #FFEDE9;
+    margin-top: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #B50003;
+    text-align: left;
+    line-height: 31px;
+}
+.courseList {
+    clear: left;
+    width: 638px;
+    height: auto;
+    border: solid 1px #F2D8D9;
+    margin-top: 9px;
+}
+.question02 {
+    padding-left: 32px;
+    float: left;
+    COLOR: #D20004;
+    FONT-WEIGHT: bold;
+}
+.right03 {
+    MARGIN-TOP: 1px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    WIDTH: 244px;
+    COLOR: #B50003;
+    HEIGHT: 31px;
+    BACKGROUND-COLOR: #FFEDE9;
+    TEXT-ALIGN: left
+}
+.right02 {
+    CLEAR: left;
+    BORDER: #F2D8D9 1px solid;
+    WIDTH: 246px;
+    HEIGHT: auto
+}
+.title_right01 {
+    height: auto;
+    clear: left;
+    width: 246px;
+    background-color: #FFFFFF;
+    padding-bottom: 8px;
+    border-top-style: none;
+}
+.schoolnews02 {
+    width: 635px;
+    height: 31px;
+    background-color: #FFEDE9;
+    margin-top: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #B50003;
+    text-align: center;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+.schoolnews01 {
+    clear: left;
+    width: 638px;
+    height: auto;
+    border: solid 1px #F2D8D9;
+}
+.infor2 {
+    font-size: 14px;
+    color: #D20004;
+    margin-left: 10px;
+    height: auto;
+    overflow: hidden;
+    font-weight: bold;
+    float: left;
+}
+.infor6 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #D20004;
+    text-align: left;
+    margin-left: 10px;
+}
+.courseList10 {
+    clear: left;
+    width: 638px;
+    height: auto;
+    border: solid 1px #F2D8D9;
+}
+.courseList11 {
+    width: 190px;
+    height: 24px;
+    margin-left: 10px;
+    line-height: 24px;
+    color: #D20004;
+    float: left
+}
+.sstable {
+    BACKGROUND-COLOR: #FFEDE9;
+}
+/*链接样式*/
+
+.link12px659 {
+    font-size: 12px;
+    color: #555555;
+    text-decoration: none;
+}
+.link12px659 a:link, .link12px659 a:visited {
+    font-size: 12px;
+    color: #555555;
+    text-decoration: none;
+}
+.link12px659 a:hover {
+    font-size: 12px;
+    color: #A5500F;
+    text-decoration: underline;
+}
+.link14265df {
+    font-size: 14px;
+    color: #583517;
+    text-decoration: none;
+}
+.link14265df a:link, .link14265df a:visited {
+    font-size: 14px;
+    color: #583517;
+    text-decoration: none;
+}
+.link14265df a:hover {
+    font-size: 14px;
+    color: #A5500F;
+    text-decoration: underline;
+}
+.link18px002 {
+    font-size: 18px;
+    color: #B50003;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link18px002 a:link, .link18px002 a:visited {
+    font-size: 18px;
+    color: #B50003;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link18px002 a:hover {
+    font-size: 18px;
+    color: #B50003;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.link12pxblue659 {
+    font-size: 12px;
+    color: #583517;
+    text-decoration: none;
+}
+.link12pxblue659 a:link, .link12pxblue659 a:visited {
+    font-size: 12px;
+    color: #583517;
+    text-decoration: none;
+}
+.link12pxblue659 a:hover {
+    font-size: 12px;
+    color: #A5500F;
+    text-decoration: underline;
+}
+.link18053 {
+    font-size: 18px;
+    color: #583517;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link18053 a:link, .link18053 a:visited {
+    font-size: 18px;
+    color: #583517;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link18053 a:hover {
+    font-size: 18px;
+    color: #A5500F;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.link12pxblue6592 {
+    font-size: 12px;
+    color: #583517;
+    text-decoration: underline;
+}
+.link12pxblue6592 a:link, .link12pxblue6592 a:visited {
+    font-size: 12px;
+    color: #583517;
+    text-decoration: underline;
+}
+.link12pxblue6592 a:hover {
+    font-size: 12px;
+    color: #A5500F;
+    text-decoration: underline;
+}
+.b598 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg10.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.linkDDDDDD {
+    font-size: 12px;
+    color: #DDDDDD;
+    text-decoration: none;
+    font-weight: normal;
+}
+.linkDDDDDD a:link, .linkDDDDDD a:visited {
+    font-size: 12px;
+    color: #DDDDDD;
+    text-decoration: none;
+    font-weight: normal;
+}
+.linkDDDDDD a:hover {
+    font-size: 12px;
+    color: #DDDDDD;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.more598 {
+    float: right;
+    margin-right: 10px;
+}
+.sright1 {
+    float: left;
+    width: 278px;
+    padding: 10px;
+    background-color: #F8F8F8;
+    overflow: hidden
+}
+.sright1 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sright1 li {
+    padding: 0px;
+    margin: 0px;
+    line-height: 23px;
+    border-bottom: dashed 1px #CDCDCD;
+    list-style: none;
+    width: 270px;
+}
+.b601 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/school/images/bg10.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.sright05 {
+    float: left;
+    width: 236px;
+    background-image: url(/school/images/bg11.jpg);
+    background-repeat: no-repeat;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 42px;
+}
+.sright05 div {
+    float: left;
+    width: 115px;
+}
+.link002 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:link, .link002 a:visited {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: none;
+}
+.link002 a:hover {
+    font-size: 12px;
+    font-weight: normal;
+    color: #5D030F;
+    text-decoration: underline;
+}
+
+
+.kzcou01 {
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.kzcou02 {
+    padding-left: 15px;
+    line-height: 25px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.ncouinr1 {
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#lianxitab td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+#lianxitab {
+    margin-left: 10px;
+}
+
+.answer_content {
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.line {
+    background: #E0E0E0;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-image: none;
+    font-size: 1px;
+    height: 1px;
+    overflow: hidden
+}
+.answer_content div {
+    padding-left: 20px
+}
+.answer_content li {
+    list-style-type: none;
+    line-height: 200%;
+}
+.answer {
+    width: 605px;
+    padding-left: 10px;
+    padding-top: 5px
+}
+.answerTxt {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FF6600
+}
+.answer_txt {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #999
+}
+.answer li {
+    list-style-type: none;
+    padding-top: 10px
+}
+.answer_content2 {
+    width: 600px;
+    height: 80px;
+    border: 1px solid #999
+}
+.answer .answertj {
+    width: 100%;
+    text-align: center;
+}
+.linkff6600 {
+    font-size: px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: normal;
+}
+.linkff6600 a:link, .linkff6600 a:visited {
+    font-size: px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: normal;
+}
+.linkff6600 a:hover {
+    font-size: px;
+    color: #ff6600;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.b812 {
+    height: 32px;
+    line-height: 32px;
+    background-image: url(/course/images/maintitle.gif);
+    background-repeat: repeat-x;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.more812 {
+    float: right;
+    margin-right: 10px;
+}
+.linkFF6600 {
+    font-size: px;
+    color: #FF6600;
+    text-decoration: none;
+    font-weight: normal;
+}
+.linkFF6600 a:link, .linkFF6600 a:visited {
+    font-size: px;
+    color: #FF6600;
+    text-decoration: none;
+    font-weight: normal;
+}
+.linkFF6600 a:hover {
+    font-size: px;
+    color: #FF6600;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.b823 {
+    height: 32px;
+    line-height:32px;
+    background-image:url(http://jn.edulife.com.cn/class/images/classtitle.gif);
+    background-repeat:repeat-x;
+    font-size:14px;
+    padding-left:30px;
+    font-weight:bold;
+}
+.more823 {
+    float: right;
+    margin-right: 10px;
+}
+.b819 {
+    font-weight: normal;
+}
+.more819 {
+    float: right;
+    margin-right: 10px;
+}
+.b814 {
+    height: 30px;
+    line-height: 30px;
+    background-image: url(/class/images/lettitle1.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    padding-left: 35px;
+    font-weight: bold;
+}
+.more814 {
+    float: right;
+    margin-right: 10px;
+}
+.b817 {
+    height: 30px;line-height:30px;background-image:url(http://jn.edulife.com.cn/class/images/lettitle1.jpg);background-repeat:repeat-x;font-size:14px;padding-left:35px;font-weight:bold;}
+.more817 {}
+.b835 {
+    height: 30px;line-height:30px;background-image:url(http://jn.edulife.com.cn/class/images/lettitle1.jpg);background-repeat:repeat-x;font-size:14px;padding-left:35px;font-weight:bold;}
+.more835 {
+    float: right;
+    margin-right: 10px;
+}
+.b820 {
+    height: 33px;
+    line-height: 33px;
+    background-image: url(/course/images/classtitle.gif);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.more820 {
+    float: right;
+    margin-right: 10px;
+}
+.answer_820 .user820 {
+    background-color: #FFFEEF;
+}
+.ansordct820 {
+    color: #FFFEEF
+}
+.answer_820 .admin820 {
+    color: #FF0000;
+    font-weight: bold
+}
+.answer_820 li {
+    background-image: url(/course/images/answer_logo.gif);
+    background-repeat: no-repeat;
+    background-position: 6px 7px;
+    z-index: 100;
+}
+.clatit01 {
+    text-align: center;
+    color: #5D030F;
+    margin-top: 20px;
+}
+.clatit02 {
+    text-align: center;
+    margin-top: 8px;
+}
+.clatit02 a:link {
+    color: #0000ff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.clatit02 a:hover {
+    color: #0000ff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.clatit02 a:visited {
+    color: #cc0000;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.tabclas1 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+#clastab01 tr {
+    height: 26px;
+}
+#clastab01, #clastab02 {
+    border: solid 1px #CCCCCC
+}
+#clastab01 tr td {
+    font-size: 14px;
+    text-align: center;
+    border: solid 1px #CCCCCC
+}
+#clastab02 tr td {
+    font-size: 14px;
+    text-align: center;
+    border: solid 1px #CCCCCC;
+    padding: 4px;
+    line-height: 160%;
+    text-align: left;
+}
+.inptclas1 {
+    height: 18px;
+    width: 120px;
+    vertical-align: middle;
+    padding: 3px 10px;
+    font: 14px/18px Helvetica, Verdana, sans-serif;
+    border: solid 1px #CCCCCC;
+}
+.inptclas2 {
+    height: 18px;
+    width: 240px;
+    vertical-align: middle;
+    padding: 3px 10px;
+    font: 14px/18px Helvetica, Verdana, sans-serif;
+    border: solid 1px #CCCCCC;
+}
+.inptclas3 {
+    height: 70px;
+    width: 360px;
+    vertical-align: middle;
+    padding: 3px 10px;
+    font: 14px/18px Helvetica, Verdana, sans-serif;
+    border: solid 1px #CCCCCC;
+}
+.link14red {
+    color: #ff0000;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.link14red a:link, .link14red a:visited {
+    color: #ff0000;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.link14red a:hover {
+    color: #ff0000;
+    font-size: 14px;
+    text-decoration: underline;
+}
+#divenroll li {
+    margin-top: 5px;
+}
+#divenroll {
+    color: #484847;
+}

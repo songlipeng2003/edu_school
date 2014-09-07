@@ -28,13 +28,15 @@
                 		<?php echo CHtml::link('学校首页', array('/site/index')); ?>
                 	</li>
                     <li id="sintro">
-                        <?php echo CHtml::link('学校介绍', array('/aboutUs')); ?>
+                        <?php echo CHtml::link('学校介绍', array('/doc/aboutUs')); ?>
                     </li>
                     <li id="allcou"><a href="/school/njzsjy/course.html">课程设置</a></li> 
                     <li id="snew">
                         <?php echo CHtml::link('学校新闻', array('news/')) ?>
                     </li> 
-                    <li id="sen"><a href="/school/njzsjy/SchoolEnvir.html">学校环境</a></li> 
+                    <li id="sen">
+                        <?php echo CHtml::link('学校环境', array('doc/env')) ?>
+                    </li> 
                     <li id="sjx">
                         <?php echo CHtml::link('学校地址', array('school/')) ?>
                     </li> 

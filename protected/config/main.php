@@ -9,7 +9,7 @@ return array(
 	// preloading 'log' component
 	'preload'=>array(
 		'log',
-		//'booster'
+		'booster'
 	),
 
 	// autoloading model and component classes

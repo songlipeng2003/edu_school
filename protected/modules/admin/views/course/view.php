@@ -20,6 +20,10 @@ $this->menu=array(
 		'id',
 		'title',
 		'description',
+        array(
+            'name'=>'content',
+            'type'=>'raw',
+        ),
 		'class_number',
 		'created_at',
 		'updated_at',

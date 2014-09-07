@@ -15,7 +15,7 @@
             </div>
             -->
             <div class="ncouinr1">
-                <?php echo $model->description ?>
+                <?php echo $model->content ?>
             </div>
         </div>
     </div>

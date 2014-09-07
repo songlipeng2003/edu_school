@@ -29,12 +29,13 @@ class Course extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, description', 'required'),
+			array('title, content, class_number', 'required'),
 			array('class_number', 'numerical', 'integerOnly'=>true),
-			array('title', 'length', 'max'=>255),
+			array('title, description', 'length', 'max'=>255),
+			array('content', 'length', 'max'=>60000),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, description, class_number, created_at, updated_at', 'safe', 'on'=>'search'),
+			array('id, title, description, content, class_number, created_at, updated_at', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,6 +59,7 @@ class Course extends CActiveRecord
 			'id' => '编号',
 			'title' => '标题',
 			'description' => '描述',
+			'content' => '内容',
 			'class_number' => '班级数量',
 			'created_at' => '创建时间',
 			'updated_at' => '更新时间',
@@ -113,5 +115,21 @@ class Course extends CActiveRecord
 				'updateAttribute' => 'updated_at',
 			)
 		);
+	}
+
+	public function beforeSave(){
+		parent::beforeSave();
+
+		if($this->content){
+			$description = preg_replace('/<\/?.*>/U', '', $this->content);
+
+			$length = strlen($description);
+
+			$description = $length>256 ? substr($description, 0, 256) : $description;
+
+			$this->description = $description;
+		}
+
+		return true;
 	}
 }

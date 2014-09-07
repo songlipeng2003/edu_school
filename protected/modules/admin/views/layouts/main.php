@@ -31,6 +31,7 @@
                         array('label' => '新闻管理', 'url' => array('news/'), 'active' => Yii::app()->controller->id=='news'),
                         array('label' => '分校管理', 'url' => array('school/'), 'active' => Yii::app()->controller->id=='school'),
                         array('label' => '课程管理', 'url' => array('course/'), 'active' => Yii::app()->controller->id=='course'),
+                        array('label' => '问答管理', 'url' => array('qa/'), 'active' => Yii::app()->controller->id=='qa'),
                         array('label' => '系统设置', 'url' => array('settings/'), 'active' => Yii::app()->controller->id=='settings'),
                     )
                 )

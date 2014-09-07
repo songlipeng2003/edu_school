@@ -40,7 +40,9 @@
                     <li id="sjx">
                         <?php echo CHtml::link('学校地址', array('school/')) ?>
                     </li> 
-                    <li id="sqa"><a href="/school/njzsjy/SchoolQA-1.html">在线问答</a></li> 
+                    <li id="sqa">
+                        <?php echo CHtml::link('在线问答', array('qa/')) ?>
+                    </li> 
                 </ul> 
             </div> 
  		</div>

@@ -50,6 +50,11 @@
  		</div>
 
  		<?php echo $content; ?>
+
+        <div class="page900" style="clear: both" align="center">
+            <?php echo Yii::app()->settings->get('system', 'footer'); ?>
+        </div>
 	</div>
+    <?php echo Yii::app()->settings->get('system', 'statisticsCode'); ?>
 </body>
 </html>

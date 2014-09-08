@@ -11,7 +11,7 @@ class m140907_151459_add_content_to_course extends CDbMigration
 	public function down()
 	{
 		$this->alterColumn('course', 'description', 'text NOT NULL');
-		$this->removeColumn('course', 'content');
+		$this->dropColumn('course', 'content');
 
 		return true;
 	}

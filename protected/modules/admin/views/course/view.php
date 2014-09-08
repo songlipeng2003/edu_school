@@ -25,6 +25,7 @@ $this->menu=array(
             'type'=>'raw',
         ),
 		'class_number',
+        'clicks'
 		'created_at',
 		'updated_at',
 ),

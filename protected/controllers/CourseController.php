@@ -25,6 +25,9 @@ class CourseController extends Controller
         if($model===null)
             throw new CHttpException(404,'The requested page does not exist.');
 
+        $model->clicks = $model->clicks + 1;
+        $model->save();
+
 		$this->render('view', array(
 			'model'=>$model,
 		));

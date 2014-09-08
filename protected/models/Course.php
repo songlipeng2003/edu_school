@@ -63,6 +63,7 @@ class Course extends CActiveRecord
 			'class_number' => '班级数量',
 			'created_at' => '创建时间',
 			'updated_at' => '更新时间',
+			'clicks' => '点击次数'
 		);
 	}
 

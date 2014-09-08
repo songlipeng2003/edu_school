@@ -32,10 +32,10 @@
             </div>
             <div style="float:left;">
                 <div class="courseList12">
-                    <font style="padding-left:10px;">班级数目：<font color="red">7个</font></font>
+                    <font style="padding-left:10px;">班级数目：<font color="red"><?php echo $course->class_number ?>个</font></font>
                 </div>
                 <div style="width:140px;height:21px;background-color:#F0F0F0;margin-top:1px;line-height:21px;">
-                    <font style="padding-left:10px;">关注人数：<font color="red">1401人</font></font>
+                    <font style="padding-left:10px;">关注人数：<font color="red"><?php echo $course->clicks ?>人</font></font>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <div style="float: left;width:632px;" id="con10000021">
     <div style="margin-bottom:10px;padding-bottom:10px;border:solid 1px #DDDDDD;" id="ordct812">
         <div class="b812">
-            <span class="more812 linkff6600">该课程已有1403次关注</span>
+            <span class="more812 linkff6600">该课程已有<?php echo $model->clicks ?>次关注</span>
             <?php echo CHtml::encode(Yii::app()->settings->get('system', 'siteName')); ?>-<?php echo $model->title ?>
         </div>
         <div style="padding-left:4px;font-size:14px;">

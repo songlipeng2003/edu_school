@@ -3,7 +3,7 @@
        <div class="b635">学校教学点</div>
        <div style="padding-right:4px;padding-top:7px;padding-left:5px;">
             <div style="padding:10px;line-height:180%">
-                <? foreach ($schools as $school) { ?>
+                <?php foreach ($schools as $school) { ?>
                     <a name="7316"></a>
                     <ul>
                         <li><span class="link14A0"><?php echo $school->title; ?></span></li>

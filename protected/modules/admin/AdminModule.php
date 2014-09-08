@@ -16,6 +16,8 @@ class AdminModule extends CWebModule
 
 	public function beforeControllerAction($controller, $action)
 	{
+		Yii::app()->booster;
+
 		if(parent::beforeControllerAction($controller, $action))
 		{
 			// this method is called before any module controller action is performed

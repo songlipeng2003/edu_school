@@ -17,7 +17,7 @@ class SettingForm extends CFormModel
     public function rules()
     {
         return array(
-            array('siteName', 'required'),
+            array('siteName, password, description', 'required'),
             array('password', 'length', 'max'=>32),
             array('description', 'length', 'max'=>255),
             array('intro, contact', 'length', 'max'=>60000),

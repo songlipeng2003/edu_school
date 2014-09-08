@@ -6,7 +6,7 @@
                 <?php foreach ($qas as $qa) { ?>
                 <ul>
                     <li class="QA1 link14A0">
-                        <?php echo CHtml::link($qa->course->title, array('course/view', 'id'=>$qs->course->id), array('target'=>'_blank')) ?>
+                        <?php echo CHtml::link($qa->course->title, array('course/view', 'id'=>$qa->course->id), array('target'=>'_blank')) ?>
                     </li>
                     <li class="QA2">
                         <span style="font-size: 12px; color: red">

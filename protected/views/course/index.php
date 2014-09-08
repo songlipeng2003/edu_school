@@ -1,3 +1,7 @@
+<?php
+$this->pageTitle = $this->pageTitle . ' - 开设课程';
+?>
+
  <div class="schoolnews01" align="center">
     <div class="title_left09">
         <span style="padding-left: 10px">

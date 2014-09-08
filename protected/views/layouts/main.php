@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/css.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/school.css" media="screen" />
 
-	<title><?php echo CHtml::encode(Yii::app()->settings->get('system', 'siteName')); ?></title>
+	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 <body>
 	<div class="page940">

@@ -1,3 +1,7 @@
+<?php
+$this->pageTitle = $this->pageTitle . ' - 开设课程 - ' . $model->title ;
+?>
+
 <div style="float: left;width:632px;" id="con10000021">
     <div style="margin-bottom:10px;padding-bottom:10px;border:solid 1px #DDDDDD;" id="ordct812">
         <div class="b812">

@@ -1,4 +1,8 @@
- <div style="margin-bottom:10px;" id="ordct606">
+<?php
+$this->pageTitle = $this->pageTitle . ' - 在线问答';
+?>
+
+<div style="margin-bottom:10px;" id="ordct606">
     <div style="padding-bottom:10px;border:solid 1px #D9E0E6;">
        <div class="b606">在线问答</div>
        <div style="padding-right:4px;padding-top:7px;padding-left:5px;">

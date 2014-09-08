@@ -9,6 +9,7 @@ class SettingForm extends CFormModel
     public $statisticsCode;
     public $footer;
     public $password;
+    public $contact;
 
     /**
      * Declares the validation rules.
@@ -19,7 +20,7 @@ class SettingForm extends CFormModel
             array('siteName', 'required'),
             array('password', 'length', 'max'=>32),
             array('description', 'length', 'max'=>255),
-            array('intro', 'length', 'max'=>60000),
+            array('intro, contact', 'length', 'max'=>60000),
             array('env', 'length', 'max'=>60000),
             array('statisticsCode', 'length', 'max'=>1000),
             array('footer', 'length', 'max'=>2000),
@@ -41,6 +42,7 @@ class SettingForm extends CFormModel
             'intro'=>'学校介绍',
             'statisticsCode'=>'统计代码',
             'footer'=>'底部代码',
+            'contact'=>'联系方式'
         );
     }
 

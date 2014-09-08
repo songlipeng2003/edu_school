@@ -5,9 +5,13 @@
         <?php echo $content; ?>
     </div>
     <div style="float: right;width:300px;" id="con10000022">
-        <div style="margin-bottom:10px;font-size:14px;border:solid 1px #D1D1D1;" id="ordct840">
-            <div style="color:#cc0000;font-size:14px; padding:6px;line-height:180%;">学校尚未登记咨询电话，课表信息仅供参考，如有疑问请留言。</div> 
-        </div>
+        <div style="margin-bottom:10px;" id="ordct608">
+            <div style="padding-bottom:10px;border:solid 1px #D1D1D1;">
+                <div class="b608">联系我们</div>
+                <div style="padding-right:4px;padding-top:7px;padding-left:4px;">
+                    <?php echo Yii::app()->settings->get('system', 'contact'); ?>
+                </div>
+            </div
         <div style="margin-bottom:10px;" id="ordct608">
             <div style="padding-bottom:10px;border:solid 1px #D1D1D1;">
                 <div class="b608">热门课程</div>

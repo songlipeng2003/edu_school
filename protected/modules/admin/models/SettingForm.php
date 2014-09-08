@@ -8,6 +8,7 @@ class SettingForm extends CFormModel
     public $env;
     public $statisticsCode;
     public $footer;
+    public $password;
 
     /**
      * Declares the validation rules.
@@ -16,6 +17,7 @@ class SettingForm extends CFormModel
     {
         return array(
             array('siteName', 'required'),
+            array('password', 'length', 'max'=>32),
             array('description', 'length', 'max'=>255),
             array('intro', 'length', 'max'=>60000),
             array('env', 'length', 'max'=>60000),
@@ -32,6 +34,7 @@ class SettingForm extends CFormModel
     public function attributeLabels()
     {
         return array(
+            'password'=>'后台密码',
             'siteName'=>'网站名称',
             'description'=>'网站简介',
             'env'=>'学校环境',

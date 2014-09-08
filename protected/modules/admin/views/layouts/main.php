@@ -7,7 +7,7 @@
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title><?php echo CHtml::encode(Yii::app()->settings->get('system', 'siteName')); ?></title>
+    <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -22,6 +22,7 @@
             'brand' => CHtml::encode(Yii::app()->settings->get('system', 'siteName')),
             'fixed' => false,
             'fluid' => false,
+            'collapse' => true, 
             'items' => array(
                 array(
                     'class' => 'booster.widgets.TbMenu',
@@ -34,7 +35,21 @@
                         array('label' => '问答管理', 'url' => array('qa/'), 'active' => Yii::app()->controller->id=='qa'),
                         array('label' => '系统设置', 'url' => array('settings/'), 'active' => Yii::app()->controller->id=='settings'),
                     )
-                )
+                ),    
+                array(
+                    'class' => 'booster.widgets.TbMenu',
+                    'type' => 'navbar',
+                    'htmlOptions' => array('class' => 'pull-right'),
+                    'items' => array(
+                        array(
+                            'label' => '管理员',
+                            'url' => '#',
+                            'items' => array(
+                                array('label' => '注销', 'url' => array('/site/logout')),
+                            )
+                        ),
+                    ),
+                ),
             )
         )
     ); 

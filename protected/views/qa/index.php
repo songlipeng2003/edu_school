@@ -10,7 +10,7 @@
                     </li>
                     <li class="QA2">
                         <span style="font-size: 12px; color: red">
-                            <?php echo $qa->created_at ?>
+                            <?php echo substr($qa->created_at, 0, 10) ?>
                         </span>
                     </li>
                     <li class="QA3">问：<?php echo $qa->question ?></li>

@@ -10,7 +10,7 @@
                     </li>
                     <li class="QA2">
                         <span style="font-size: 12px; color: red">
-                            <?php echo $news->post_time ?>
+                            <?php echo substr($news->post_time, 0, 10) ?>
                         </span>
                     </li>
                     <li class="QA6"><?php echo $news->description ?></li>

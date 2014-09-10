@@ -25,21 +25,6 @@
                 </div>
             </div>
         </div>
-        <div style="margin-bottom:10px;" id="ordct610">
-            <div style="padding-bottom:10px;border:solid 1px #D9E0E6;">
-                <div class="b601">教学点</div>
-                <div style="padding-right:4px;padding-top:7px;padding-left:4px;">
-                    <div class="s2 link1244">
-                        <a name="7319"></a>
-                        <ul>
-                            <li><span class='link14A0'> [南京市-玄武区]银城东苑校区</span></li>
-                            <li><b>分校地址：</b>南京市银城东苑1号</li>
-                            <li class='s3'><b>分校交通：</b></li>
-                        </ul>
-                    </div>
-                </div>   
-            </div>
-        </div>
     </div>
 </div>
 <?php $this->endContent(); ?>

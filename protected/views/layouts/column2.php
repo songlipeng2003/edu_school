@@ -11,17 +11,17 @@
                 <div style="padding-right:4px;padding-top:7px;padding-left:4px;">
                     <?php echo Yii::app()->settings->get('system', 'contact'); ?>
                 </div>
-            </div
+            </div>
+        </div>
         <div style="margin-bottom:10px;" id="ordct608">
             <div style="padding-bottom:10px;border:solid 1px #D1D1D1;">
-                <div class="b608">热门课程</div>
-                <div style="padding-right:4px;padding-top:7px;padding-left:4px;">
-                    <table width="100%" cellpadding="0" cellspacing="0">
-                        <tr height=27 align="center" bgcolor="#f0f0f0">
-                            <td><b>课程</b></td>
-                            <td><b>优惠价</b></td>
-                        </tr>
-                    </table>
+                <div class="b598">
+                    <span class="more598 linkDDDDDD">
+                        <?php echo CHtml::link('更多&gt;&gt;', array('news/')); ?>
+                    </span>学校动态
+                </div>
+                <div class="sright1 link1244">
+                    <?php $this->widget('application.widgets.LastestNewsWidget'); ?>
                 </div>
             </div>
         </div>

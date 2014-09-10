@@ -950,7 +950,7 @@ div.scott span.disabled {
 .sright05 {
     float: left;
     width: 236px;
-    background-image: url(/school/images/bg11.jpg);
+    background-image: url(/images/bg11.jpg);
     background-repeat: no-repeat;
     height: 30px;
     line-height: 30px;
@@ -981,7 +981,7 @@ div.scott span.disabled {
 .b622 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg003.jpg);
+    background-image: url(/images/bg003.jpg);
     background-repeat: repeat-x;
     color: #FFFFFF;
     padding-left: 40px;
@@ -1001,7 +1001,7 @@ div.scott span.disabled {
 .b624 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg10.jpg);
+    background-image: url(/images/bg10.jpg);
     background-repeat: repeat-x;
     font-size: 14px;
     padding-left: 40px;
@@ -1014,7 +1014,7 @@ div.scott span.disabled {
 .b628 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg10.jpg);
+    background-image: url(/images/bg10.jpg);
     background-repeat: repeat-x;
     padding-left: 40px;
     font-weight: bold;
@@ -1055,7 +1055,7 @@ div.scott span.disabled {
 .sright05 {
     float: left;
     width: 236px;
-    background-image: url(/school/images/bg11.jpg);
+    background-image: url(/images/bg11.jpg);
     background-repeat: no-repeat;
     height: 30px;
     line-height: 30px;
@@ -1086,7 +1086,7 @@ div.scott span.disabled {
 .b668 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg003.jpg);
+    background-image: url(/images/bg003.jpg);
     background-repeat: repeat-x;
     font-size: 14px;
     color: #FFFFFF;
@@ -1107,7 +1107,7 @@ div.scott span.disabled {
 .b670 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg10.jpg);
+    background-image: url(/images/bg10.jpg);
     background-repeat: repeat-x;
     font-size: 14px;
     padding-left: 40px;
@@ -1120,7 +1120,7 @@ div.scott span.disabled {
 .b674 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg10.jpg);
+    background-image: url(/images/bg10.jpg);
     background-repeat: repeat-x;
     font-size: 14px;
     padding-left: 40px;
@@ -1163,7 +1163,7 @@ a:hover {
     text-decoration: underline;
 }
 .dot {
-    background-image: url(http://www.edulife.com.cn/school/images1/dot.gif);
+    background-image: url(http://www.edulife.com.cn/images1/dot.gif);
     background-repeat: repeat-x;
     width: 98%;
     height: 1px;
@@ -1195,11 +1195,11 @@ a:hover {
     text-align: center
 }
 .on {
-    background-image: url(http://www.edulife.com.cn/school/images1/on.gif);
+    background-image: url(http://www.edulife.com.cn/images1/on.gif);
     color: White
 }
 .off {
-    background-image: url(http://www.edulife.com.cn/school/images1/off.gif);
+    background-image: url(http://www.edulife.com.cn/images1/off.gif);
     color: White
 }
 .chgdiv {
@@ -1329,7 +1329,7 @@ a:hover {
 }
 .courseList2 {
     width: 616px;
-    background-image: url(http://www.edulife.com.cn/school/images1/title_left02.gif);
+    background-image: url(http://www.edulife.com.cn/images1/title_left02.gif);
     height: 31px;
     line-height: 31px;
     font-weight: bold;
@@ -1465,7 +1465,7 @@ a:hover {
 }
 .title_left05 {
     FLOAT: left;
-    BACKGROUND-IMAGE: url(http://www.edulife.com.cn/school/images1/title_left01.gif);
+    BACKGROUND-IMAGE: url(http://www.edulife.com.cn/images1/title_left01.gif);
     MARGIN-BOTTOM: 9px;
     MARGIN-LEFT: 9px;
     WIDTH: 355px;
@@ -1524,7 +1524,7 @@ a:hover {
 .question01 {
     width: 608px;
     height: 29px;
-    background-image: url(http://www.edulife.com.cn/school/images1/title_left03.gif);
+    background-image: url(http://www.edulife.com.cn/images1/title_left03.gif);
     background-repeat: repeat-x;
     margin-top: 18px;
     FONT-SIZE: 14px;
@@ -1544,7 +1544,7 @@ a:hover {
 /*红色方案*/
 
 .top02 {
-    BACKGROUND-IMAGE: url(http://www.edulife.com.cn/school/images1/title_02.jpg);
+    BACKGROUND-IMAGE: url(http://www.edulife.com.cn/images1/title_02.jpg);
     WIDTH: 900px;
     LINE-HEIGHT: 37px;
     HEIGHT: 71px
@@ -1554,7 +1554,7 @@ a:hover {
     height: 13px;
     margin-left: 10px;
     margin-top: 6px;
-    background-image: url(http://www.edulife.com.cn/school/images1/ico03.gif);
+    background-image: url(http://www.edulife.com.cn/images1/ico03.gif);
     background-repeat: no-repeat;
 }
 .title_left02 {
@@ -1802,7 +1802,7 @@ a:hover {
 .b598 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg10.jpg);
+    background-image: url(/images/bg10.jpg);
     background-repeat: repeat-x;
     font-size: 14px;
     padding-left: 40px;
@@ -1853,7 +1853,7 @@ a:hover {
 .b601 {
     height: 30px;
     line-height: 30px;
-    background-image: url(/school/images/bg10.jpg);
+    background-image: url(/images/bg10.jpg);
     background-repeat: repeat-x;
     font-size: 14px;
     padding-left: 40px;
@@ -1862,7 +1862,7 @@ a:hover {
 .sright05 {
     float: left;
     width: 236px;
-    background-image: url(/school/images/bg11.jpg);
+    background-image: url(/images/bg11.jpg);
     background-repeat: no-repeat;
     height: 30px;
     line-height: 30px;

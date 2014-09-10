@@ -33,7 +33,7 @@ class Qa extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nickname, question, created_at', 'required'),
+			array('nickname, email, question, course_id', 'required'),
 			array('course_id', 'numerical', 'integerOnly'=>true),
 			array('email', 'email'),
 			array('nickname, email, phone', 'length', 'max'=>32),
@@ -119,5 +119,15 @@ class Qa extends CActiveRecord
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
+	}
+
+	public function behaviors(){
+		return array(
+			'CTimestampBehavior' => array(
+				'class' => 'zii.behaviors.CTimestampBehavior',
+				'createAttribute' => 'created_at',
+				'updateAttribute' => 'updated_at',
+			)
+		);
 	}
 }
